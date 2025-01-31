@@ -1,0 +1,46 @@
+header{
+
+    font-size: 20px;
+    color: black;
+    display: grid;
+    align-items: center;
+    justify-content: space-between;
+}
+body{
+    background-color: antiquewhite;
+}
+.image{
+    border-radius: 30px;
+    width: 100px;
+}
+.bienvenu{
+    display: flex;
+}
+#histoire{
+    font-size: 30px;
+    text-align: center;
+}
+.kun{
+    display: grid;
+    min-height: 60vh;
+    gap: 30px;
+    border: 0 0 2px white;
+    font-size: 25px;
+}
+.magie{
+    font-size: 25px;
+    display: grid;
+    justify-content: space-between;
+}
+@media all and (max-width:780px){
+    .bienvenu{
+        display: grid;
+    }
+    .kun{
+      display: grid;
+      font-size: 20px;
+    }
+    .magie{
+        font-size: 20px;
+    }
+}
